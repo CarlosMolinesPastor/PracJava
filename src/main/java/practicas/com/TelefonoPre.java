@@ -1,7 +1,7 @@
 package practicas.com;
 
 public class TelefonoPre {
-    public long numTelefono;
+public long numTelefono;
     public double saldo;
 
     //constructor
@@ -9,10 +9,14 @@ public class TelefonoPre {
         this.numTelefono = nT;
         this.saldo = s;
     }
+
+    // Segunda clase para no darlos de alta con saldo
     public TelefonoPre(long nT) {
         this.numTelefono = nT;
         this.saldo = 0;
     }
+
+    // Funciones de la clase para el objeto
     public boolean recarga(int imprecarga){
         if (imprecarga %5==0) {
             saldo += imprecarga;

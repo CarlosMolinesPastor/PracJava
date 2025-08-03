@@ -1,6 +1,7 @@
 package practicas.com;
 
 public class Taquilla {
+    // caracteristicas de la clase taquilla
     public int entradasDisponibles;
     public int maxEntradasLlevadas;
     public int cantidadEntradasLimite;

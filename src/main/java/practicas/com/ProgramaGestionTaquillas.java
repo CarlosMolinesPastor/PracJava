@@ -10,6 +10,7 @@ public class ProgramaGestionTaquillas {
         System.out.println("Cuantas entradas como maximo puede comprar una persona: ");
         int totalLimite = teclado.nextInt();
 
+
         Taquilla taquilla = new Taquilla(totalEntradas, totalLimite);
 
         do {
